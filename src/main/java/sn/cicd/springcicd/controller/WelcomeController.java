@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
     @GetMapping("/test")
     public String getMessage(){
-        return "Welcome to Spring Boot Cicd !";
+        return "Welcome to Spring Boot Cicd jenkins!";
     }
 }
